@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fome Zer0 - Delivery</title>
+  <link rel="stylesheet" href="styles.css"> <!-- opcional, se tiver um arquivo externo -->
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: #e0e0e0;
+    }
+
+    .hero h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .search-bar input {
+      padding: 10px 15px;
+      width: 100%;
+      max-width: 400px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      outline: none;
+      box-sizing: border-box;
+    }
+
+    .restaurantes {
+      padding: 30px 20px;
+    }
+
+    .restaurantes h2 {
+      margin-bottom: 15px;
+    }
+
+    /* Estilo para cards de restaurante */
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h3 {
+      margin: 0 0 8px 0;
+      font-size: 18px;
+    }
+
+    .card p {
+      margin: 0;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Por do Sol</div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Meus Pedidos</a>
+      <a href="#">Carrinho</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Que tal um sabor diferente hoje!</h1>
+    <p>Fmoe Zer0</p>
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar por restaurantes ou pratos">
+    </div>
+  </section>
+
+  <section class="restaurantes">
+    <h2>Restaurantes</h2>
+
+    <!-- Exemplo de restaurantes -->
+    <div class="card">
+      <h3>Sabor da Serra</h3>
+      <p>Entrega em até 30 minutos</p>
+    </div>
+
+    <div class="card">
+      <h3>Pizzaria do Sol</h3>
+      <p>Promoção de pizza grande - Entrega em 40 minutos</p>
+    </div>
+
+    <div class="card">
+      <h3>Veggie & Cia</h3>
+      <p>Pratos veganos e naturais - Entrega em 25 minutos</p>
+    </div>
+  </section>
+</body>
+</html>
+
